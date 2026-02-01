@@ -15,13 +15,13 @@ This project demonstrates web automation, data collection, and basic financial m
 
 This project is divided into 6 major modules:
 
-# 1. Browser Automation Module
+#### 1. Browser Automation Module
 
 Launches headless Chrome browser
 Opens CoinMarketCap dynamically using Selenium
 Handles page load and timeout conditions
 
-# 2. Data Extraction Module
+#### 2. Data Extraction Module
 
 Scrapes Top 10 cryptocurrencies
 Extracts:
@@ -32,22 +32,22 @@ Price
 24h Change
 Market Capitalization
 
-# 3. Timestamping Module
+#### 3. Timestamping Module
 
 Records real-time timestamp for each fetch
 Enables historical tracking of prices
 
-# 4. Data Storage Module
+#### 4. Data Storage Module
 
 Saves extracted data into CSV format
 Appends new records for continuous tracking
 
-# 5. Data Analysis Module
+##### 5. Data Analysis Module
 
 Identifies top gainers based on 24-hour percentage change
 Filters coins gaining more than +5%
 
-# 6. Reporting Module
+#### 6. Reporting Module
 
 Displays latest crypto data in tabular format
 Shows gainers summary in the terminal
